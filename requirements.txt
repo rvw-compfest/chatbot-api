@@ -1,0 +1,15 @@
+llama-index-vector-stores-chroma
+llama-index-core
+llama-parse
+llama-index-readers-file
+llama-index-embeddings-langchain
+llama-index-llms-langchain
+llama-index-llms-fireworks
+chromadb
+ollama
+langchain-community
+sentence-transformers
+unstructured[all-docs]
+langchain
+llama-index-embeddings-openai
+Flask
