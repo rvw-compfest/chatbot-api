@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
-from get_response import get_llm_response
+# from get_response import get_llm_response
+from retrieve import get_response
 
 app = Flask(__name__)
 
@@ -10,14 +11,20 @@ def hello_world():
 @app.route('/ask', methods=["POST"])
 def get_answer():
     data = request.json
+
+    print(data)
+
     query = data.get('question')
 
     if not query:
         return jsonify({'error': 'Please provide a question.'}), 400
     
-    answer = get_llm_response(query)
+    answer = get_response(query)
 
-    return jsonify(answer)
+    print('answer', answer)
+    print('query', query)
+
+    return answer
  
 
 

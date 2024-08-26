@@ -1,3 +1,4 @@
 .ipynb_checkpoints
-./api/__pycache__
-./chroma
+__pycache__
+chroma
+.vscode

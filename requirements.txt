@@ -9,7 +9,8 @@ chromadb
 ollama
 langchain-community
 sentence-transformers
-unstructured[all-docs]
 langchain
 llama-index-embeddings-openai
 Flask
+langchain-huggingface
+langchain-chroma
