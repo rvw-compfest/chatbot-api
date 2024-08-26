@@ -12,7 +12,7 @@ ollama pull aya
 
 3. Run populate.ipynb
 
-4. test pake test.ipynb, set `persist_directory` ke direktori db.
+4. test pake test.ipynb, set `persist_directory` ke direktori chroma.
 
 ## Test API
 
