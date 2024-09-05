@@ -1,8 +1,8 @@
 from flask import Flask, request, jsonify
-# from get_response import get_llm_response
 from retrieve import get_response
 
 app = Flask(__name__)
+
 
 @app.route('/')
 def hello_world():
@@ -21,12 +21,7 @@ def get_answer():
     
     answer = get_response(query)
 
-    print('answer', answer)
-    print('query', query)
-
     return answer
- 
-
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)

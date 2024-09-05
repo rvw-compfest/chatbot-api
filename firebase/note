@@ -1,9 +1,0 @@
-const firebaseConfig = {
-    apiKey: "AIzaSyCJmhr7OGZx_R-WeNWJI3fzp0alPl9Ilgc",
-    authDomain: "compfest-1b96e.firebaseapp.com",
-    databaseURL: "https://compfest-1b96e-default-rtdb.firebaseio.com",
-    projectId: "compfest-1b96e",
-    storageBucket: "compfest-1b96e.appspot.com",
-    messagingSenderId: "397558428328",
-    appId: "1:397558428328:web:fe920c2edd48e857f0489d"
-};
