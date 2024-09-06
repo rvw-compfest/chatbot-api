@@ -16,3 +16,4 @@ langchain-huggingface
 langchain-chroma
 firebase_admin
 firebase
+gunicorn==20.1.0
