@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+api/__pycache__
+chroma
+.vscode
+.env
+firebase/.env
+test.ipynb
+populate.ipynb
