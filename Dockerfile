@@ -5,6 +5,7 @@ WORKDIR /app
 COPY requirements.txt .
 
 RUN conda create --name myenv python=3.10.12 && \
+    conda init bash \
     conda activate myenv && \
     pip install -r requirements.txt
 
